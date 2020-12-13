@@ -11,7 +11,7 @@ function setup(){
     posenet.on('pose',getPoses);
 }
 function modelloaded(){
-    console.log("PoseNet Initialized");
+    console.log("PoseNet Initialized!");
 }
 function getPoses(results){
     if(results.length > 0){
